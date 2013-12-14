@@ -7,8 +7,8 @@
  * @subpackage	Fieldtypes
  * @category	Fieldtypes
  * @author      GDmac
- * @copyright   Copyright (c) 2011 grdalenoort
- * @version     1.0.1
+ * @copyright   Copyright (c) 2013 grdalenoort
+ * @version     1.0.2
  * @license     http://creativecommons.org/licenses/by-sa/3.0/ Attribution-Share Alike 3.0 Unported
  */
 
@@ -16,14 +16,14 @@ class Reevision_ft extends EE_Fieldtype {
 
 	var $info = array(
 		'name'		=> 'Reevision (counter)',
-		'version'	=> '1.0.1'
+		'version'	=> '1.0.2'
 	);
 	var $has_array_data = FALSE;
 
 	// --------------------------------------------------------------------
 	function __construct()
 	{
-		parent::EE_Fieldtype();
+		parent::__construct();
 	}
 
 	// --------------------------------------------------------------------
